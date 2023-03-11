@@ -329,7 +329,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "What projects i had developed";
+    content: "I have created";
 }
 .teams .carousel .card{
     background: #222;
@@ -337,6 +337,8 @@ section .title::after{
     padding: 25px 35px;
     text-align: center;
     overflow: hidden;
+    display:flex;
+
   
 }
 .teams .carousel .card:hover{
@@ -348,6 +350,7 @@ section .title::after{
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+    margin:40px;
 }
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
