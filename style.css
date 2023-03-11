@@ -45,7 +45,8 @@ section{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    margin-left: 180px;
 }
 section .title{
     position: relative;
@@ -299,6 +300,8 @@ section .title::after{
     padding: 50px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
+    
+
 }
 .services .serv-content .card:hover{
     background: goldenrod;
