@@ -28,8 +28,8 @@ section{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    margin-left: 180px;
+    justify-content: space-between;
+    
 }
 section .title{
     position: relative;
@@ -384,9 +384,7 @@ section .title::after{
 .contact .title::after{
     content: "get in touch";
 }
-.contact .contact-content .column{
-    width: calc(50% - 30px);
-}
+
 .contact .contact-content .text{
     font-size: 20px;
     font-weight: 600;
@@ -444,10 +442,7 @@ section .title::after{
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
 }
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus{
-    border-color: #b3b3b3;
-}
+
 .contact .right form .textarea textarea{
   padding-top: 10px;
   resize: none;
@@ -468,7 +463,6 @@ section .title::after{
   cursor: pointer;
   flex-wrap: nowrap;
   background: goldenrod;
-  border: 2px solid crimson;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
@@ -546,8 +540,8 @@ section .title::after{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
-    .skills .skills-content .column,
-    .contact .contact-content .column{
+    .skills .skills-content .column
+    {
         width: 100%;
         margin-bottom: 35px;
     }
