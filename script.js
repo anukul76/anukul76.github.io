@@ -71,3 +71,11 @@ $(document).ready(function(){
         }
     });
 });
+document.getElementById("res").addEventListener("click",()=>{
+    window.open('https://drive.google.com/file/d/1W-hPjAirkoJ3Be2oHbYd5N21EcOYNCAx/view?usp=share_link', '_blank');
+})
+
+
+document.getElementById("down").addEventListener("click",()=>{
+    window.open('https://drive.google.com/file/d/1W-hPjAirkoJ3Be2oHbYd5N21EcOYNCAx/view?usp=share_link', '_blank');
+})

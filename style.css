@@ -50,6 +50,18 @@ section .title::before{
     background: #111;
     transform: translateX(-50%);
 }
+#sofskills{
+    display:grid;
+    margin:auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+#sofskills img{
+    width:200px;
+    height:200px;
+
+
+}
 section .title::after{
     position: absolute;
     bottom: -8px;
@@ -486,6 +498,12 @@ section .title::after{
     .menu-btn{
         display: block;
         z-index: 999;
+    }
+    #sofskills{
+        display:grid;
+        margin:auto;
+        grid-template-columns: 1fr 1fr;
+    
     }
     .menu-btn i.active:before{
         content: "\f00d";
