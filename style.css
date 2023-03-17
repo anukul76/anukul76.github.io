@@ -427,6 +427,12 @@ section .title::after{
     .navbar .menu li{
         display: block;
     }
+    #sofskills{
+        display:grid;
+        margin:auto;
+        grid-template-columns: 1fr 1fr;
+    
+    }
 
     
     .navbar .menu li a{
