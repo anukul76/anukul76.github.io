@@ -8,7 +8,12 @@
     text-decoration: none;
 }
 
-
+.sofskills div{
+ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
+.skills img{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+}
 /* all similar content styling codes */
 
 
@@ -410,6 +415,7 @@ section .title::after{
     .menu-btn i.active:before{
         content: "\f00d";
     }
+    
     .navbar .menu{
         position: fixed;
         height: 100vh;
@@ -543,6 +549,18 @@ section .title::after{
         row-gap: 50px;
         grid-template-columns: 1fr;
         padding-left: 130px;
+    
+        
+    
+    
+    
+    }
+    #sofskills{
+        display: grid;
+    
+        grid-template-columns: 1fr;
+        padding-bottom: 20px;
+    
     
         
     
