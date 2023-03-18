@@ -70,12 +70,14 @@ section .title::before{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
-#sofskills img{
+#sofskills  div img{
     width:200px;
-    height:200px;
+    height: 150px;
+
 
 
 }
+
 section .title::after{
     position: absolute;
     bottom: -8px;
@@ -414,6 +416,19 @@ section .title::after{
     }
     .menu-btn i.active:before{
         content: "\f00d";
+    }
+
+    .skills{
+        display: grid;
+        column-gap: 30px;
+        row-gap: 50px;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 130px;
+    
+        
+    
+    
+    
     }
     
     .navbar .menu{
