@@ -10,9 +10,33 @@
 
 .sofskills div{
  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+ 
+    background: goldenrod;
+   border-radius:20px;
+    
+
+
 }
+.Tecskills div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+    
+       background: goldenrod;
+      border-radius:20px;
+       
+   
+   
+   }
+   .Tecskills div{
+    margin:auto;
+    color:blue;
+    text-align: center;
+    padding:10px;
+    margin-bottom: 50px;
+}
+
 .skills img{
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
+    
 }
 /* all similar content styling codes */
 
@@ -70,7 +94,20 @@ section .title::before{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
+#Tecskills{
+    display:grid;
+    margin:auto;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
 #sofskills  div img{
+    width:200px;
+    height: 150px;
+
+
+
+}
+#Tecskills  div img{
     width:200px;
     height: 150px;
 
@@ -222,7 +259,7 @@ section .title::after{
 
 .about .about-content .left{
     width: 45%;
-    margin-left: -220px;
+    
 }
 .about .about-content .left img{
     height: 400px;
@@ -412,18 +449,23 @@ section .title::after{
         display:grid;
         margin:auto;
         grid-template-columns: 1fr 1fr;
+
     
     }
+    #sofskills div{
+        margin:20px;
+    }
+ 
     .menu-btn i.active:before{
         content: "\f00d";
     }
 
-    .skills{
+    #Tecskills{
         display: grid;
         column-gap: 30px;
         row-gap: 50px;
         grid-template-columns: 1fr 1fr;
-        padding-left: 130px;
+        
     
         
     
@@ -558,12 +600,13 @@ section .title::after{
         height: 100px;
     
     }
-    .skills{
+    #Tecskills{
         display: grid;
-        column-gap: 30px;
-        row-gap: 50px;
+        
         grid-template-columns: 1fr;
-        padding-left: 130px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        
     
         
     
