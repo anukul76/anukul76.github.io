@@ -307,9 +307,7 @@ section .title::after{
 
 
 /* teams section styling */
-.teams .title::after{
-    content: "I have created";
-}
+
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
@@ -360,9 +358,7 @@ section .title::after{
 
 
 /* contact section styling */
-.contact .title::after{
-    content: "get in touch";
-}
+
 
 .contact .contact-content .text{
     font-size: 20px;
@@ -561,12 +557,15 @@ section .title::after{
         font-size: 20px;
     }
     .services .serv-content .card{
-        width: 100%;
+        width: 50%;
     }
 }
 
 @media (max-width: 500px) {
     .box{
+        width:fit-content;
+        font-size: small;
+    }.card{
         width:fit-content
     }
     .home .home-content .text-2{
