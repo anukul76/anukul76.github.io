@@ -343,19 +343,18 @@ section .title::after{
 
 .teams .carousel .card .text{
     font-size: 25px;
-    font-weight: 500;
+
     
 }
 .teams .carousel .card {
-    padding:50px
+    padding:20px
     
 }
 .teams .carousel .card img{
-    height: 200px;
     width: 200px;
     object-fit: cover;
     border: 5px solid goldenrod;
-    margin:10px;
+    margin-top:30px;
 }
 
 
@@ -567,6 +566,9 @@ section .title::after{
 }
 
 @media (max-width: 500px) {
+    .box{
+        width:fit-content
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }
