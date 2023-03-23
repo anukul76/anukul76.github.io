@@ -313,69 +313,52 @@ section .title::after{
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
-    padding: 25px 35px;
     text-align: center;
     overflow: hidden;
     display:flex;
-    padding-left: 20px;
+    margin-left: 40px;
+    
+
+    margin-bottom:50px;
    
 
   
 }
-.teams .carousel .card:hover{
+.team .carousel .card:hover{
     background: goldenrod;
 }
+
+.carousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+    
+   
+}
+
 .texta{
     color:white
 }
-.teams .carousel .card .box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    margin:40px;
-}
-.teams .carousel .card:hover .box{
-    transform: scale(1.05);
-}
+
 .teams .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    
+}
+.teams .carousel .card {
+    padding:50px
+    
 }
 .teams .carousel .card img{
     height: 200px;
     width: 200px;
     object-fit: cover;
-    border-radius: 50%;
     border: 5px solid goldenrod;
-    transition: all 0.3s ease;
+    margin:10px;
 }
-.teams .carousel .card:hover img{
-    border-color: #fff;
-}
-.owl-dots{
-    text-align: center;
-    margin-top: 20px;
-}
-.owl-dot{
-    height: 13px;
-    width: 13px;
-    margin: 0 5px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid goldenrod!important;
-    transition: all 0.3s ease;
-}
-.owl-dot.active{
-    width: 35px;
-    border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot:hover{
-    background: goldenrod!important;
-}
+
+
 
 /* contact section styling */
 .contact .title::after{
@@ -453,6 +436,15 @@ section .title::after{
 
     
     }
+    .carousel {
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    
+        
+       
+    }
+    
     #sofskills div{
         margin:20px;
     }
