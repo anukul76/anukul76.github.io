@@ -314,7 +314,7 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     display:flex;
-    margin-left: 40px;
+    margin-left: 10px;
     
 
     margin-bottom:50px;
